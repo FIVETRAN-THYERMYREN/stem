@@ -15,7 +15,9 @@ with source_data as (
     union all
     select null as id*/
 
-    select *, "hello" as hello from `fivetran-wild-west.thyermyrenpostgresrds_public.employees`
+    /*select *, "hello" as hello from `fivetran-wild-west.thyermyrenpostgresrds_public.employees`*/
+
+    select * from {{source('thyermyrenpostgresrds_public','employees')}}
 
 )
 
