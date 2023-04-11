@@ -17,7 +17,7 @@ with source_data as (
 
     /*select *, "hello" as hello from `fivetran-wild-west.thyermyrenpostgresrds_public.employees`*/
 
-    select *, "hello" as hello from {{source('thyermyrenpostgresrds_public','employees')}}
+    select *, "hello" as hello, "world" as world from {{source('thyermyrenpostgresrds_public','employees')}}
 
 )
 
