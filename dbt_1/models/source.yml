@@ -1,8 +1,6 @@
 version: 2
 
 sources:
-  - name: thyermyrenpostgresrds
-    database: fivetran-wild-west  
-    schema: thyermyrenpostgresrds_public  
+  - name: thyermyrenpostgresrds_public
     tables:
       - name: employees
