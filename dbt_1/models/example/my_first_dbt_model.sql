@@ -11,9 +11,11 @@
 
 with source_data as (
 
-    select 1 as id
+    /*select 1 as id
     union all
-    select null as id
+    select null as id*/
+
+    select *, "hello" as hello from `fivetran-wild-west.thyermyrenpostgresrds_public.employees`
 
 )
 
