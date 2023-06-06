@@ -4,3 +4,6 @@ sources:
   - name: thyermyrenpostgresrds_public
     tables:
       - name: employees
+  - name: google_cloud_sqlserver_dbo
+    tables:
+      - name: Employee
